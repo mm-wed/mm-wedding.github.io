@@ -598,7 +598,7 @@ footer > p > a {
 
   .travel-title,
   .registry-title {
-    width: 80%;
+    width: 95%;
   }
 
   .travel-title {
@@ -610,7 +610,7 @@ footer > p > a {
   }
 
   .registry-title {
-    top: 4%;
+    top: 5%;
   }
 
   /* Travel */
