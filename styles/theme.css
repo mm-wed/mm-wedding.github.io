@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'script';
+    src: url(/assets/fonts/Feeling\ Passionate.otf);
+}
+
+@font-face {
+    font-family: 'PerfectlyNineties-Reg';
+    src: url(/assets/fonts/PerfectlyNineties-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'PerfectlyNineties-Ital';
+    src: url(/assets/fonts/PerfectlyNineties-RegularItalic.ttf);
+}
+
+@font-face {
+    font-family: 'PerfectlyNineties-bold';
+    src: url(/assets/fonts/PerfectlyNineties-Semibold.ttf);
+}
+
+@font-face {
+    font-family: 'PerfectlyNineties-boldIta';
+    src: url(/assets/fonts/PerfectlyNineties-SemiboldItalic.ttf);
+}
+
+@font-face {
+  font-family: 'Nord-bold';
+  src: url(/assets/fonts/Nord-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Nord-book';
+  src: url(/assets/fonts/Nord-Book.ttf);
+}
+
+@font-face {
+  font-family: 'Nord-light';
+  src: url(/assets/fonts/Nord-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Nord-medium';
+  src: url(/assets/fonts/Nord-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Nord';
+  src: url(/assets/fonts/Nord-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Nord-thin';
+  src: url(/assets/fonts/Nord-Thin.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --eggshell: #E7DECD;
+    --blue: #4d7dbf;
+    --lighter-blue: #4d7dbf80;
+    --dark-blue: #30449c;
+    --gray: #b4b4b4;
+    --text: #212419;
+    --white: #FBFAF8;
+    --beige: #f9f5f2;
+}

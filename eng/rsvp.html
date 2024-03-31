@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/styles/theme.css" />
+        <link rel="stylesheet" href="/styles/pages.css" />
+        <link rel="icon" href="/assets/graphics/logo.png" type="image/x-icon" />
+        <script src="https://kit.fontawesome.com/fbff4fbf4f.js" crossorigin="anonymous"></script>
+        <title>Max & Mina</title>
+    </head>
+
+    <body>
+      <!-- HEADER  -->
+      <header>
+        <a href="index.eng.html"><img class="logo" src="/assets/graphics/logo-03.png" alt="m&m monogram" /></a>
+        <nav class="nav-mobile">
+          <i class="fa-regular fa-circle-xmark close"></i>
+          <ul class="nav-bar">
+            <li><a href="index.eng.html#itinerary">The Wedding</a></li>
+            <li><a href="travel.html">Travel</a></li>
+<!--             <li><a href="us.html">Us</a></li>
+ -->            <li><a href="registry.html">Registry</a></li>
+            <li><a href="rsvp.html">RSVP</a></li>
+          </ul>
+          <ul class="lang">
+            <li>
+              <a href="/esp/rsvp.html"
+                ><img src="/assets/graphics/mx-flag.png" width="15px"
+              /></a>
+            </li>
+            <li><p style="color: white;">|</p></li>
+            <li>
+              <a href="rsvp.html"
+                ><img src="/assets/graphics/usa-flag.png" width="15px"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+        <div class="menu-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <nav class="nav-desktop">
+          <ul class="nav-bar nav-rsvp">
+            <li><a href="index.eng.html#itinerary">The Wedding</a></li>
+            <li><a href="travel.html">Travel</a></li>
+<!--             <li><a href="us.html">Us</a></li>
+ -->            <li><a href="registry.html">Registry</a></li>
+            <li><a href="rsvp.html">RSVP</a></li>
+          </ul>
+          <ul class="lang">
+            <li>
+              <a href="/esp/rsvp.html"
+                ><img src="/assets/graphics/mx-flag.png" width="15px"
+              /></a>
+            </li>
+            <li><p style="color: var(--lighter-blue);">|</p></li>
+            <li>
+              <a href="rsvp.html"
+                ><img src="/assets/graphics/usa-flag.png" width="15px"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- HERO  -->
+      <div class="hero">
+      </div>
+
+      <!-- RSVP  -->
+      <div class="rsvp">
+        <h3>Kindly reply before 09/01/2024</h3>
+        <form class="form" method="post" name="RSVP">
+            <fieldset>
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput"></label>
+                    <div class="col-md-5 name">
+                        <input id="textinput" name="Name" type="text" placeholder="Enter Guest Name(s)" class="form-control input-md" required>
+                    </div>
+                </div>
+                <!-- Multiple Radios (inline) -->
+                <div class="form-group radio">
+                    <label class="col-md-4 control-label" for="rsvp">Will you be attending the Welcome Party?</label>
+                    <div class="col-md-4">
+                        <label class="radio-inline" for="rsvp-0">
+                            <input type="radio" name="Welcome-Party" id="rsvp-0" value="Yes" checked="checked">
+                            Yes
+                        </label>
+                        <label class="radio-inline" for="rsvp-1">
+                            <input type="radio" name="Welcome-Party" id="rsvp-1" value="No">
+                            No
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Multiple Radios (inline) -->
+                <div class="form-group radio">
+                  <label class="col-md-4 control-label" for="rsvp">Will you attend the ceremony and reception?</label>
+                  <div class="col-md-4">
+                      <label class="radio-inline" for="rsvp-0">
+                          <input type="radio" name="RSVP" id="rsvp-0" value="Yes" checked="checked">
+                          Yes
+                      </label>
+                      <label class="radio-inline" for="rsvp-1">
+                          <input type="radio" name="RSVP" id="rsvp-1" value="No">
+                          No
+                      </label>
+                  </div>
+              </div>
+
+                <!-- Multiple Radios (inline) -->
+                <div class="form-group radio">
+                    <label class="col-md-4 control-label" for="radios">Will you take the provided transportation?</label>
+                    <div class="col-md-4">
+                        <label class="radio-inline" for="radios-0">
+                            <input class="ans" type="radio" name="Transportation" id="radios-0" value="Yes" checked="checked">
+                            Yes
+                        </label>
+                        <label class="radio-inline" for="radios-1">
+                            <input type="radio" name="Transportation" id="radios-1" value="No">
+                            No
+                        </label>
+                    </div>
+                </div>
+                <!-- Textarea -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label label-food" for="food">Do you have any dietary restrictions?</label>
+                  <div class="col-md-4">
+                    <textarea class="form-control food" id="food" name="Restrictions"></textarea>
+                  </div>
+                </div>
+                <!-- Reply button -->
+                <div class="form-group">
+                    <div class="col-md-5 col-md-offset-4 reply">
+                        <button type="submit" class="btn italic btn-primary">Reply</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+
+    <footer>
+        <p>
+            Got questions about our big day? <br />
+            Feel free to contact us at
+            <a href="mailto:maxandminaforever.com" target="_blank"
+                >maxandminaforever@gmail.com</a
+            >, <br />you can of course reach us through text or call. <br />Your
+            joy and presence on our wedding day mean the world to us,
+            <br />and we can't wait to celebrate with you!
+        </p>
+    </footer>
+
+    <script src="/scripts/header.js"></script>
+    <script src="/scripts/googleSheets.js"></script>
+    <script src="/scripts/mobileMenu-pages.js"></script>
+  </body>
+</html>
