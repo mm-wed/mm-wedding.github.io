@@ -539,6 +539,7 @@ footer > p > a {
     background-color: var(--blue);
     font-size: 11px;
     letter-spacing: 0.3rem;
+    padding: 1.5rem 0.6rem;
   }
 
   .logo {
