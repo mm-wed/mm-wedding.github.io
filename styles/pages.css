@@ -596,9 +596,12 @@ footer > p > a {
     line-height: 1;
   }
 
-  .travel-title,
-  .registry-title {
+  .travel-title {
     width: 95%;
+  }
+
+  .registry-title {
+    width: 80%;
   }
 
   .travel-title {
@@ -611,6 +614,7 @@ footer > p > a {
 
   .registry-title {
     top: 5%;
+    margin: 1rem 2rem 2rem 2rem;
   }
 
   /* Travel */
