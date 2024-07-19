@@ -227,7 +227,7 @@ header ul {
 
 /* -----------------Travel----------------- */
 .travel {
-  background: url('/assets/graphics/bg-texture-02.png') no-repeat top center / cover;
+  background: url('/assets/graphics/bg-texture-02.webp') no-repeat top center / cover;
   padding: 3rem 1rem;
 }
 
@@ -297,7 +297,7 @@ header ul {
 
 .activities {
   background-color: var(--lighter-blue);
-  background-image: url('/assets/graphics/bg-texture-04.png');
+  background-image: url('/assets/graphics/bg-texture-04.webp');
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -323,7 +323,7 @@ header ul {
 }
 
 .guide {
-  background-image: url('/assets/graphics/bg-texture.png');
+  background-image: url('/assets/graphics/bg-texture.webp');
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -360,7 +360,7 @@ header ul {
 /* -----------------Us----------------- */
 /* -----------------Registry----------------- */
 .registry {
-  background: url('/assets/graphics/bg-texture.png') no-repeat top center / cover;
+  background: url('/assets/graphics/bg-texture.webp') no-repeat top center / cover;
   padding: 3rem 1rem;
 }
 
@@ -426,7 +426,7 @@ header ul {
 }
 
 .rsvp {
-  background: url('/assets/graphics/bg-texture-02.png') no-repeat top center / cover;
+  background: url('/assets/graphics/bg-texture-02.webp') no-repeat top center / cover;
   padding: 5rem 0;
 }
 
@@ -722,7 +722,7 @@ footer > p > a {
 
   /* Registry */
   .registry {
-    background: url('/assets/graphics/bg-texture.png') no-repeat top center / cover;
+    background: url('/assets/graphics/bg-texture.webp') no-repeat top center / cover;
     padding: 1rem;
   }
 

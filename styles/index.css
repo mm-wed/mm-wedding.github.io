@@ -193,7 +193,7 @@ header ul {
 
 /* -----------------Countdown Styles----------------- */
 .countdown-section {
-  background-image: url(/assets/graphics/bg-texture.png);
+  background-image: url(/assets/graphics/bg-texture.webp);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -375,7 +375,7 @@ a.hotels:hover {
 /* -----------------Transportation----------------- */
 .transportation {
   padding: 10rem 2rem 10rem 2rem;
-  background-image: url(/assets/graphics/bg-beige.png);
+  background-image: url(/assets/graphics/bg-beige.webp);
   background-position: center;
   background-size: cover;
 }
@@ -416,7 +416,7 @@ a.hotels:hover {
 /* -----------------Dress code----------------- */
 .dresscode {
   padding: 3rem 2rem 2rem 2rem;
-  background-image: url(/assets/graphics/bg-texture-03.png);
+  background-image: url(/assets/graphics/bg-texture-03.webp);
   background-position: center;
   background-size: cover;
   background-color: var(--lighter-blue);
@@ -476,7 +476,7 @@ p.dc-description {
 
 /* -----------------Music----------------- */
 #music-section {
-  background-image: url(/assets/graphics/bg-beige.png);
+  background-image: url(/assets/graphics/bg-beige.webp);
   background-position: center;
   background-size: cover;
   display: flex;
