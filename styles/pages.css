@@ -155,12 +155,12 @@ header ul {
 
 /* -----------------Hero Styles----------------- */
 .us-hero {
-  background: url('/assets/photos/3.png') no-repeat top center / cover;
+  background: url('/assets/photos/3.webp') no-repeat top center / cover;
   z-index: -2;
 }
 
 .travel-hero {
-  background: url('/assets/photos/M&M-28.png') no-repeat top center / cover;
+  background: url('/assets/photos/M&M-28.webp') no-repeat top center / cover;
   z-index: -2;
 }
 
@@ -206,7 +206,7 @@ header ul {
 }
 
 .registry-hero {
-  background: url('/assets/photos/2.png') no-repeat top center / cover;
+  background: url('/assets/photos/2.webp') no-repeat top center / cover;
   z-index: -2;
 }
 

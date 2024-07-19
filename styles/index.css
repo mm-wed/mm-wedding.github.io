@@ -148,7 +148,7 @@ header ul {
 
 /* -----------------Hero Styles----------------- */
 .hero-section {
-  background: url('/assets/photos/M&M-115.png') no-repeat top center / cover;
+  background: url('/assets/photos/M&M-115.webp') no-repeat top center / cover;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -578,7 +578,7 @@ footer > p > a {
 
   /* Hero */
   .hero-section {
-      background: url('/assets/photos/M&M-115c.png') no-repeat 65% top / cover;
+      background: url('/assets/photos/M&M-115c.webp') no-repeat 65% top / cover;
       padding-bottom: 1rem;
   }
 
