@@ -374,7 +374,7 @@ header ul {
 .transportation > .serif,
 .dress-code > .serif,
 .travel-tips > .serif {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .f-left {
@@ -934,6 +934,25 @@ footer > p > a {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     height: 80vh;
+  }
+
+  .accommodation > h3,
+  .transportation > h3,
+  .dress-code > h3,
+  .travel-tips > h3 {
+    font-size: 1.9rem;
+  }
+
+  .accommodation > .serif,
+  .transportation > .serif,
+  .dress-code > .serif,
+  .travel-tips > .serif {
+    font-size: 1.2rem;
+  }
+
+  .accommodation > .address,
+  .accommodation > .email {
+    font-size: 0.85rem;
   }
 
   .f-left {
