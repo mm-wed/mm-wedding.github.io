@@ -1,32 +1,32 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: 'Nord', sans-serif;
-    font-size: 16px;
-    background-color: var(--eggshell);
-    scroll-behavior: smooth;
-    color: var(--text);
+  font-family: "Nord", sans-serif;
+  font-size: 16px;
+  background-color: var(--eggshell);
+  scroll-behavior: smooth;
+  color: var(--text);
 }
 
 section {
-    height: 100vh;
-    padding: 2rem 0;
+  height: 100vh;
+  padding: 2rem 0;
 }
 
 .serif {
-    font-family: 'PerfectlyNineties-Reg', serif, Helvatica;
+  font-family: "PerfectlyNineties-Reg", serif, Helvatica;
 }
 
 .script {
-  font-family: 'script', sans-serif, Helvetica;
+  font-family: "script", sans-serif, Helvetica;
 }
 
 .italic {
-    font-family: 'PerfectlyNineties-Ital', serif, Helvatica;
+  font-family: "PerfectlyNineties-Ital", serif, Helvatica;
 }
 
 .small {
@@ -37,75 +37,75 @@ section {
 
 /* -----------------Header Styles----------------- */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.6rem;
-    color: white;
-    background-color: transparent;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    transition: 0.3s background ease-in-out;
-    z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem;
+  color: white;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.3s background ease-in-out;
+  z-index: 1000;
 }
 
 nav {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 header ul {
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
 }
 
 .logo {
-    height: 20px;
+  height: 20px;
 }
 
 .nav-bar > li {
-    padding-left: 1.5rem;
+  padding-left: 1.5rem;
 }
 
 .nav-bar > li > a {
-    cursor: pointer;
-    color: var(--white);
-    text-decoration: none;
-    opacity: 0.8;
+  cursor: pointer;
+  color: var(--white);
+  text-decoration: none;
+  opacity: 0.8;
 }
 
 .nav-bar > li > a:hover {
-    color: white;
+  color: white;
 }
 
 .lang {
-    margin-left: 1.5rem;
-    cursor: pointer;
-    gap: 5px;
-    justify-self: center;
+  margin-left: 1.5rem;
+  cursor: pointer;
+  gap: 5px;
+  justify-self: center;
 }
 
 .header-scroll {
-    background-color: var(--blue);
-    color: var(--eggshell);
-    transition: 0.3s background ease-in-out;
+  background-color: var(--blue);
+  color: var(--eggshell);
+  transition: 0.3s background ease-in-out;
 }
 
 /* -----------------Mobile menu icon----------------- */
 .menu-toggle {
-    display: none;
-    cursor: pointer;
+  display: none;
+  cursor: pointer;
 }
 
 .bar {
-    width: 25px;
-    height: 2px;
-    border-radius: 2px;
-    background-color: white;
-    margin: 5px 0;
+  width: 25px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: white;
+  margin: 5px 0;
 }
 
 /* -----------------Mobile menu styles----------------- */
@@ -121,34 +121,34 @@ header ul {
 } */
 
 .nav-mobile {
-    visibility: hidden;
-    opacity: 0;
-    flex-direction: column;
-    position: relative;
-    background-color: var(--blue);
-    z-index: 999;
-    height: 0;
-    overflow: hidden;
-    transition: all 0.5s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  flex-direction: column;
+  position: relative;
+  background-color: var(--blue);
+  z-index: 999;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
 }
 
 .nav-mobile .nav-bar {
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding: 1rem;
-    transition: padding 0.3s ease-in-out;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 1rem;
+  transition: padding 0.3s ease-in-out;
 }
 
 .close {
-    font-size: 1.5rem;
-    color: var(--gray);
-    cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--gray);
+  cursor: pointer;
 }
 
 /* -----------------Hero Styles----------------- */
 .hero-section {
-  background: url('/assets/photos/M&M-115.png') no-repeat top center / cover;
+  background: url("/assets/photos/M&M-115.png") no-repeat top center / cover;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -176,10 +176,10 @@ header ul {
 
 @keyframes marquee {
   0% {
-      transform: translate(0, 0);
+    transform: translate(0, 0);
   }
   100% {
-      transform: translate(-100%, 0);
+    transform: translate(-100%, 0);
   }
 }
 
@@ -335,7 +335,7 @@ a.hotels:hover {
 }
 
 .event-details > p {
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   margin-bottom: 0.5rem;
 }
 
@@ -457,7 +457,7 @@ a.hotels:hover {
 }
 
 p.dc-description {
-  font-family: 'Nord-light';
+  font-family: "Nord-light";
   font-size: 0.9rem;
 }
 
@@ -488,7 +488,7 @@ p.dc-description {
 }
 
 #music-section > h2 {
-  font-family: 'script', sans-serif;
+  font-family: "script", sans-serif;
   color: var(--text);
   opacity: 0.8;
   margin-bottom: 2rem;
@@ -513,7 +513,7 @@ footer {
 }
 
 footer > p > a {
-  font-family: 'PerfectlyNineties-boldIta', serif, Helvatica;
+  font-family: "PerfectlyNineties-boldIta", serif, Helvatica;
   text-decoration: none;
   color: #efecda;
   cursor: pointer;
@@ -523,11 +523,11 @@ footer > p > a {
 /* -----------------Media Query----------------- */
 @media screen and (max-width: 768px) {
   html {
-      font-size: 10px;
+    font-size: 10px;
   }
 
   section {
-      height: 95vh;
+    height: 95vh;
   }
 
   /* Header */
@@ -540,26 +540,26 @@ footer > p > a {
   }
 
   .logo {
-      height: 15px;
+    height: 15px;
   }
 
   .nav-desktop {
-      display: none;
+    display: none;
   }
 
   .menu-toggle {
-      display: block;
+    display: block;
   }
 
   .menu-toggle.active {
-      display: none;
+    display: none;
   }
 
   .nav-mobile.active {
-      height: auto;
-      opacity: 1;
-      visibility: visible;
-      align-items: flex-end;
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+    align-items: flex-end;
   }
 
   .nav-mobile > .nav-bar > li {
@@ -567,27 +567,27 @@ footer > p > a {
   }
 
   .hidden {
-      display: none;
+    display: none;
   }
 
   .lang {
-      margin-right: 10px;
-      gap: 10px;
-      width: max-content;
+    margin-right: 10px;
+    gap: 10px;
+    width: max-content;
   }
 
   /* Hero */
   .hero-section {
-      background: url('/assets/photos/M&M-115c.png') no-repeat 65% top / cover;
-      padding-bottom: 1rem;
+    background: url("/assets/photos/M&M-115c.png") no-repeat 65% top / cover;
+    padding-bottom: 1rem;
   }
 
   /* Countdown */
   .countdown {
-      flex-direction: column;
-      text-align: center;
-      justify-content: center;
-      align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 
   /* Events */
@@ -687,13 +687,13 @@ footer > p > a {
   }
 
   #music-section > h2 {
-      margin: 3rem 2rem 0.5rem 2rem;
+    margin: 3rem 2rem 0.5rem 2rem;
   }
 
   #music-section > iframe {
-      width: 87%;
-      height: 550px;
-      margin: 0 3rem 3rem 3rem;
+    width: 87%;
+    height: 550px;
+    margin: 0 3rem 3rem 3rem;
   }
 
   /* Footer */

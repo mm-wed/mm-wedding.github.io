@@ -1,161 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/styles/theme.css" />
-        <link rel="stylesheet" href="/styles/pages.css" />
-        <script src="https://kit.fontawesome.com/fbff4fbf4f.js" crossorigin="anonymous"></script>
-        <link rel="icon" href="/assets/graphics/logo.png" type="image/x-icon" />
-        <title>Max & Mina</title>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/theme.css" />
+    <link rel="stylesheet" href="/styles/pages.css" />
+    <script
+      src="https://kit.fontawesome.com/fbff4fbf4f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="/assets/graphics/logo.png" type="image/x-icon" />
+    <title>Max & Mina</title>
+  </head>
 
-    <body>
-      <!-- HEADER  -->
-      <header>
-        <a href="index.esp.html"><img class="logo" src="/assets/graphics/logo-03.png" alt="m&m monogram" /></a>
-        <nav class="nav-mobile">
-          <i class="fa-regular fa-circle-xmark close"></i>
-          <ul class="nav-bar">
-            <li><a href="index.esp.html#itinerary">Inicio</a></li>
-            <!--<li><a href="#">Invitación</a></li>-->
-            <li><a href="hospedaje.html">Hospedaje</a></li>
-<!--             <li><a href="us.html">Us</a></li>
- -->            <li><a href="regalos.html">Mesa de Regalos</a></li>
-            <li><a href="rsvp.html">RSVP</a></li>
-          </ul>
-          <ul class="lang">
-            <li>
-              <a href="rsvp.html"
-                ><img src="/assets/graphics/mx-flag.png" width="15px"
-              /></a>
-            </li>
-            <li><p style="color: white;">|</p></li>
-            <li>
-              <a href="../eng/rsvp.html"
-                ><img src="/assets/graphics/usa-flag.png" width="15px"
-              /></a>
-            </li>
-          </ul>
-        </nav>
-        <div class="menu-toggle">
-          <i class="fa-solid fa-bars"></i>
-        </div>
-
-        <nav class="nav-desktop">
-          <ul class="nav-bar nav-rsvp">
-            <li><a href="index.esp.html#itinerary">Inicio</a></li>
-            <!--<li><a href="#">Invitación</a></li>-->
-            <li><a href="hospedaje.html">Hospedaje</a></li>
-<!--             <li><a href="us.html">Us</a></li>
- -->            <li><a href="regalos.html">Mesa de Regalos</a></li>
-            <li><a href="rsvp.html">RSVP</a></li>
-          </ul>
-          <ul class="lang">
-            <li>
-              <a href="rsvp.html"
-                ><img src="/assets/graphics/mx-flag.png" width="15px"
-              /></a>
-            </li>
-            <li><p style="color: var(--lighter-blue);">|</p></li>
-            <li>
-              <a href="../eng/rsvp.html"
-                ><img src="/assets/graphics/usa-flag.png" width="15px"
-              /></a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-
-      <!-- HERO  -->
-      <div class="hero">
+  <body>
+    <!-- HEADER  -->
+    <header>
+      <a href="index.esp.html"
+        ><img
+          class="logo"
+          src="/assets/graphics/logo-03.png"
+          alt="m&m monogram"
+      /></a>
+      <nav class="nav-mobile">
+        <i class="fa-regular fa-circle-xmark close"></i>
+        <ul class="nav-bar">
+          <li><a href="index.esp.html#itinerary">Inicio</a></li>
+          <li><a href="invitacion.html">Invitacion</a></li>
+          <li><a href="hospedaje.html">Hospedaje</a></li>
+          <!--             <li><a href="us.html">Us</a></li>
+ -->
+          <li><a href="regalos.html">Mesa de Regalos</a></li>
+          <li><a href="rsvp.html">RSVP</a></li>
+        </ul>
+        <ul class="lang">
+          <li>
+            <a href="rsvp.html"
+              ><img src="/assets/graphics/mx-flag.png" width="15px"
+            /></a>
+          </li>
+          <li><p style="color: white">|</p></li>
+          <li>
+            <a href="../eng/rsvp.html"
+              ><img src="/assets/graphics/usa-flag.png" width="15px"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="menu-toggle">
+        <i class="fa-solid fa-bars"></i>
       </div>
 
-      <!-- RSVP  -->
-      <div class="rsvp">
-        <h3>Favor de confirmar tu asistencia antes del 01/09/2024</h3>
-        <form class="form" method="post" name="RSVP">
-            <fieldset>
-                <!-- Text input-->
-                <div class="form-group">
-                    <label class="col-md-4 control-label" for="textinput"></label>
-                    <div class="col-md-5 name">
-                        <input id="textinput" name="Name" type="text" placeholder="Nombre(s) de invitado(s)" class="form-control input-md" required>
-                    </div>
-                </div>
-                <!-- Multiple Radios (inline) -->
-                <div class="form-group radio">
-                    <label class="col-md-4 control-label" for="rsvp">¿Vas a asistir a la fiesta de bienvenida?</label>
-                    <div class="col-md-4">
-                        <label class="radio-inline" for="rsvp-0">
-                            <input type="radio" name="Welcome-Party" id="rsvp-0" value="Yes" checked="checked">
-                            Si
-                        </label>
-                        <label class="radio-inline" for="rsvp-1">
-                            <input type="radio" name="Welcome-Party" id="rsvp-1" value="No">
-                            No
-                        </label>
-                    </div>
-                </div>
+      <nav class="nav-desktop">
+        <ul class="nav-bar nav-rsvp">
+          <li><a href="index.esp.html#itinerary">Inicio</a></li>
+          <li><a href="invitacion.html">Invitacion</a></li>
+          <li><a href="hospedaje.html">Hospedaje</a></li>
+          <!--             <li><a href="us.html">Us</a></li>
+ -->
+          <li><a href="regalos.html">Mesa de Regalos</a></li>
+          <li><a href="rsvp.html">RSVP</a></li>
+        </ul>
+        <ul class="lang">
+          <li>
+            <a href="rsvp.html"
+              ><img src="/assets/graphics/mx-flag.png" width="15px"
+            /></a>
+          </li>
+          <li><p style="color: var(--lighter-blue)">|</p></li>
+          <li>
+            <a href="../eng/rsvp.html"
+              ><img src="/assets/graphics/usa-flag.png" width="15px"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-                <!-- Multiple Radios (inline) -->
-                <div class="form-group radio">
-                  <label class="col-md-4 control-label" for="rsvp">¿Vas a asistir a la ceremonia y recepciÓn?</label>
-                  <div class="col-md-4">
-                      <label class="radio-inline" for="rsvp-0">
-                          <input type="radio" name="RSVP" id="rsvp-0" value="Yes" checked="checked">
-                          Si
-                      </label>
-                      <label class="radio-inline" for="rsvp-1">
-                          <input type="radio" name="RSVP" id="rsvp-1" value="No">
-                          No
-                      </label>
-                  </div>
-              </div>
+    <!-- HERO  -->
+    <div class="hero"></div>
 
-                <!-- Multiple Radios (inline) -->
-                <div class="form-group radio">
-                    <label class="col-md-4 control-label" for="radios">¿UtilizarÁs el transporte proporcionado?</label>
-                    <div class="col-md-4">
-                        <label class="radio-inline" for="radios-0">
-                            <input class="ans" type="radio" name="Transportation" id="radios-0" value="Yes" checked="checked">
-                            Si
-                        </label>
-                        <label class="radio-inline" for="radios-1">
-                            <input type="radio" name="Transportation" id="radios-1" value="No">
-                            No
-                        </label>
-                    </div>
-                </div>
-                <!-- Textarea -->
-                <div class="form-group">
-                  <label class="col-md-4 control-label label-food" for="food">¿Tienes alguna restricciÓn alimentaria?</label>
-                  <div class="col-md-4">
-                    <textarea class="form-control food" id="food" name="Restrictions"></textarea>
-                  </div>
-                </div>
-                <!-- Reply button -->
-                <div class="form-group">
-                    <div class="col-md-5 col-md-offset-4 reply">
-                        <button type="submit" class="btn italic btn-primary">Enviar</button>
-                    </div>
-                </div>
-            </fieldset>
-        </form>
+    <!-- RSVP  -->
+    <div class="rsvp">
+      <h3>Favor de confirmar tu asistencia antes del 01/09/2024</h3>
+      <form class="form" method="post" name="RSVP">
+        <fieldset>
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="textinput"></label>
+            <div class="col-md-5 name">
+              <input
+                id="textinput"
+                name="Name"
+                type="text"
+                placeholder="Nombre(s) de invitado(s)"
+                class="form-control input-md"
+                required
+              />
+            </div>
+          </div>
+          <!-- Multiple Radios (inline) -->
+          <div class="form-group radio">
+            <label class="col-md-4 control-label" for="rsvp"
+              >¿Vas a asistir a la fiesta de bienvenida?</label
+            >
+            <div class="col-md-4">
+              <label class="radio-inline" for="rsvp-0">
+                <input
+                  type="radio"
+                  name="Welcome-Party"
+                  id="rsvp-0"
+                  value="Yes"
+                  checked="checked"
+                />
+                Si
+              </label>
+              <label class="radio-inline" for="rsvp-1">
+                <input
+                  type="radio"
+                  name="Welcome-Party"
+                  id="rsvp-1"
+                  value="No"
+                />
+                No
+              </label>
+            </div>
+          </div>
+
+          <!-- Multiple Radios (inline) -->
+          <div class="form-group radio">
+            <label class="col-md-4 control-label" for="rsvp"
+              >¿Vas a asistir a la ceremonia y recepciÓn?</label
+            >
+            <div class="col-md-4">
+              <label class="radio-inline" for="rsvp-0">
+                <input
+                  type="radio"
+                  name="RSVP"
+                  id="rsvp-0"
+                  value="Yes"
+                  checked="checked"
+                />
+                Si
+              </label>
+              <label class="radio-inline" for="rsvp-1">
+                <input type="radio" name="RSVP" id="rsvp-1" value="No" />
+                No
+              </label>
+            </div>
+          </div>
+
+          <!-- Multiple Radios (inline) -->
+          <div class="form-group radio">
+            <label class="col-md-4 control-label" for="radios"
+              >¿UtilizarÁs el transporte proporcionado?</label
+            >
+            <div class="col-md-4">
+              <label class="radio-inline" for="radios-0">
+                <input
+                  class="ans"
+                  type="radio"
+                  name="Transportation"
+                  id="radios-0"
+                  value="Yes"
+                  checked="checked"
+                />
+                Si
+              </label>
+              <label class="radio-inline" for="radios-1">
+                <input
+                  type="radio"
+                  name="Transportation"
+                  id="radios-1"
+                  value="No"
+                />
+                No
+              </label>
+            </div>
+          </div>
+          <!-- Textarea -->
+          <div class="form-group">
+            <label class="col-md-4 control-label label-food" for="food"
+              >¿Tienes alguna restricciÓn alimentaria?</label
+            >
+            <div class="col-md-4">
+              <textarea
+                class="form-control food"
+                id="food"
+                name="Restrictions"
+              ></textarea>
+            </div>
+          </div>
+          <!-- Reply button -->
+          <div class="form-group">
+            <div class="col-md-5 col-md-offset-4 reply">
+              <button type="submit" class="btn italic btn-primary">
+                Enviar
+              </button>
+            </div>
+          </div>
+        </fieldset>
+      </form>
     </div>
-
 
     <footer>
       <p>
-          ¿Tienes alguna pregunta? <br />
-          Nos puedes mandar un correo a
-          <a href="mailto:maxandminaforever.com" target="_blank"
-              >maxandminaforever@gmail.com</a
-          >, <br />o nos puedes llamar o mandar un mensaje. <br />Nos encantaría compartir contigo un día tan especial,
-          <br />¡ya queremos verte!
+        ¿Tienes alguna pregunta? <br />
+        Nos puedes mandar un correo a
+        <a href="mailto:maxandminaforever.com" target="_blank"
+          >maxandminaforever@gmail.com</a
+        >, <br />o nos puedes llamar o mandar un mensaje. <br />Nos encantaría
+        compartir contigo un día tan especial, <br />¡ya queremos verte!
       </p>
-  </footer>
+    </footer>
 
     <script src="/scripts/header.js"></script>
     <script src="/scripts/googleSheets.js"></script>

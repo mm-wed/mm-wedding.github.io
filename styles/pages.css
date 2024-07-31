@@ -5,7 +5,7 @@
 }
 
 html {
-  font-family: 'Nord', sans-serif;
+  font-family: "Nord", sans-serif;
   font-size: 16px;
   background-color: var(--eggshell);
   scroll-behavior: smooth;
@@ -18,21 +18,21 @@ section {
 }
 
 .serif {
-  font-family: 'PerfectlyNineties-Reg', serif, Helvatica;
+  font-family: "PerfectlyNineties-Reg", serif, Helvatica;
 }
 
 .script {
-font-family: 'script', sans-serif, Helvetica;
+  font-family: "script", sans-serif, Helvetica;
 }
 
 .italic {
-  font-family: 'PerfectlyNineties-Ital', serif, Helvatica;
+  font-family: "PerfectlyNineties-Ital", serif, Helvatica;
 }
 
 .small {
-font-weight: 300;
-font-size: 10px;
-letter-spacing: 0.1rem;
+  font-weight: 300;
+  font-size: 10px;
+  letter-spacing: 0.1rem;
 }
 
 /* -----------------Header Styles----------------- */
@@ -97,7 +97,7 @@ header ul {
   transition: 0.3s background ease-in-out;
 }
 
-.rsvp-nav >li > a {
+.rsvp-nav > li > a {
   color: var(--blue);
 }
 
@@ -128,39 +128,39 @@ header ul {
 } */
 
 .nav-mobile {
-    visibility: hidden;
-    opacity: 0;
-    flex-direction: column;
-    position: relative;
-    background-color: var(--blue);
-    z-index: 999;
-    height: 0;
-    overflow: hidden;
-    transition: all 0.5s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  flex-direction: column;
+  position: relative;
+  background-color: var(--blue);
+  z-index: 999;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
 }
 
 .nav-mobile .nav-bar {
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding: 1rem;
-    transition: padding 0.3s ease-in-out;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 1rem;
+  transition: padding 0.3s ease-in-out;
 }
 
 .close {
-    font-size: 1.5rem;
-    color: var(--gray);
-    cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--gray);
+  cursor: pointer;
 }
 
 /* -----------------Hero Styles----------------- */
 .us-hero {
-  background: url('/assets/photos/3.webp') no-repeat top center / cover;
+  background: url("/assets/photos/3.webp") no-repeat top center / cover;
   z-index: -2;
 }
 
 .travel-hero {
-  background: url('/assets/photos/M&M-28.webp') no-repeat top center / cover;
+  background: url("/assets/photos/M&M-28.webp") no-repeat top center / cover;
   z-index: -2;
 }
 
@@ -206,7 +206,7 @@ header ul {
 }
 
 .registry-hero {
-  background: url('/assets/photos/2.webp') no-repeat top center / cover;
+  background: url("/assets/photos/2.webp") no-repeat top center / cover;
   z-index: -2;
 }
 
@@ -225,9 +225,275 @@ header ul {
   top: 65%;
 }
 
+/* -----------------INVITATION----------------- */
+.invitation-header {
+  color: #efecda;
+  background-color: var(--blue);
+}
+
+.hero-section {
+  background: url("/assets/graphics/inv-hero.webp") no-repeat top center / cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  gap: 35%;
+  z-index: -2;
+  padding-bottom: 0.8rem;
+  color: var(--eggshell);
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90vh;
+}
+
+.d-left {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.names {
+  color: #d1d6ed;
+  line-height: 1;
+  margin-bottom: 3rem;
+}
+
+.names > h1 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.names > p {
+  margin-bottom: 0.5rem;
+  color: var(--eggshell);
+}
+
+.names,
+.date,
+.ceremony,
+.reception {
+  padding: 0 5rem;
+  width: 80%;
+}
+
+.d-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.ceremony > h3,
+.reception > h3 {
+  color: var(--dark-blue);
+  font-weight: 300;
+  margin-top: 2.5rem;
+  font-size: 1.3rem;
+}
+
+.ceremony > h4,
+.reception > h4 {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.inv-photo-1 {
+  height: 100vh;
+  background-image: url("/assets/photos/M&M-12-04.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.welcome-party {
+  background-image: url("/assets/graphics/wp-bg.webp");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+  background-color: #d1d6ed;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.top > p,
+.bottom > p {
+  font-size: 1.2rem;
+}
+
+.top > h1,
+.bottom > a > h1 {
+  font-size: 3rem;
+  color: var(--dark-blue);
+}
+
+.bottom > a {
+  text-decoration: none;
+}
+
+.bottom > h1 {
+  letter-spacing: 3px;
+}
+
+.bottom {
+  margin-bottom: 10rem;
+}
+
+.bottom > .address {
+  font-size: 0.9rem;
+  letter-spacing: -1px;
+  color: var(--dark-blue);
+}
+
+.inv-photo-2 {
+  height: 100vh;
+  background-image: url("/assets/photos/M&M-12-03.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 65%;
+}
+
+.faq {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 95vh;
+}
+
+.accommodation > .serif,
+.transportation > .serif,
+.dress-code > .serif,
+.travel-tips > .serif {
+  font-size: 1.1rem;
+}
+
+.f-left {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.accommodation > .address {
+  margin-top: 8px;
+}
+
+.accommodation > .address,
+.accommodation > .email {
+  font-size: 0.7rem;
+  color: #d1d6ed;
+}
+
+.accommodation,
+.transportation,
+.dress-code,
+.travel-tips {
+  width: 75%;
+}
+
+.accommodation,
+.transportation {
+  padding-left: 5rem;
+}
+
+.dress-code,
+.travel-tips {
+  padding-right: 5rem;
+}
+
+.f-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: left;
+}
+
+.accommodation > h3,
+.transportation > h3 {
+  color: var(--eggshell);
+  font-weight: 300;
+  margin-top: 2.5rem;
+  font-size: 1.3rem;
+}
+
+.dress-code > h3,
+.travel-tips > h3 {
+  color: var(--dark-blue);
+  font-weight: 300;
+  margin-top: 2.5rem;
+  font-size: 1.3rem;
+}
+
+.inv-rsvp {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.r-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.r-top > img {
+  height: 347.4px;
+}
+
+.r-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.r-bottom > h1 {
+  font-size: 2rem;
+}
+
+.bottom > a > h1:hover,
+.accommodation > p > a,
+.travel-tips > p > a,
+.r-bottom > p > a,
+.transportation > p > a,
+.dress-code > p > a {
+  text-decoration: none;
+  color: #54a074;
+}
+
+.r-bottom > a {
+  text-decoration: none;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  padding: 0.7rem 6.5rem;
+  font-size: 0.7rem;
+  border-radius: 2rem;
+}
+
+.r-bottom > a:hover {
+  background-color: #54a074;
+}
+
 /* -----------------Travel----------------- */
 .travel {
-  background: url('/assets/graphics/bg-texture-02.webp') no-repeat top center / cover;
+  background: url("/assets/graphics/bg-texture-02.webp") no-repeat top center /
+    cover;
   padding: 3rem 1rem;
 }
 
@@ -297,11 +563,11 @@ header ul {
 
 .activities {
   background-color: var(--lighter-blue);
-  background-image: url('/assets/graphics/bg-texture-04.webp');
+  background-image: url("/assets/graphics/bg-texture-04.webp");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  padding: 5rem 0 ;
+  padding: 5rem 0;
 }
 
 .activities > h1 {
@@ -323,7 +589,7 @@ header ul {
 }
 
 .guide {
-  background-image: url('/assets/graphics/bg-texture.webp');
+  background-image: url("/assets/graphics/bg-texture.webp");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -357,10 +623,10 @@ header ul {
   height: 480px;
 }
 
-/* -----------------Us----------------- */
 /* -----------------Registry----------------- */
 .registry {
-  background: url('/assets/graphics/bg-texture.webp') no-repeat top center / cover;
+  background: url("/assets/graphics/bg-texture.webp") no-repeat top center /
+    cover;
   padding: 3rem 1rem;
 }
 
@@ -426,7 +692,8 @@ header ul {
 }
 
 .rsvp {
-  background: url('/assets/graphics/bg-texture-02.webp') no-repeat top center / cover;
+  background: url("/assets/graphics/bg-texture-02.webp") no-repeat top center /
+    cover;
   padding: 5rem 0;
 }
 
@@ -516,7 +783,7 @@ footer {
 }
 
 footer > p > a {
-  font-family: 'PerfectlyNineties-boldIta', serif, Helvatica;
+  font-family: "PerfectlyNineties-boldIta", serif, Helvatica;
   text-decoration: none;
   color: #efecda;
   cursor: pointer;
@@ -530,7 +797,7 @@ footer > p > a {
   }
 
   section {
-      height: 95vh;
+    height: 95vh;
   }
 
   /* Header */
@@ -543,26 +810,26 @@ footer > p > a {
   }
 
   .logo {
-      height: 15px;
+    height: 15px;
   }
 
   .nav-desktop {
-      display: none;
+    display: none;
   }
 
   .menu-toggle {
-      display: block;
+    display: block;
   }
 
   .menu-toggle.active {
-      display: none;
+    display: none;
   }
 
   .nav-mobile.active {
-      height: auto;
-      opacity: 1;
-      visibility: visible;
-      align-items: flex-end;
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+    align-items: flex-end;
   }
 
   .nav-mobile > .nav-bar > li {
@@ -570,16 +837,29 @@ footer > p > a {
   }
 
   .hidden {
-      display: none;
+    display: none;
   }
 
   .lang {
-      margin-right: 10px;
-      gap: 10px;
-      width: max-content;
+    margin-right: 10px;
+    gap: 10px;
+    width: max-content;
   }
 
   /* Hero */
+  .hero-section {
+    background: url("/assets/graphics/inv-hero-mov.webp") no-repeat top center /
+      cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    gap: 35%;
+    z-index: -2;
+    padding-bottom: 0.8rem;
+    background-color: var(--eggshell);
+  }
+
   .travel-title {
     margin: 0.5rem 2rem;
   }
@@ -615,6 +895,125 @@ footer > p > a {
   .registry-title {
     top: 5%;
     margin: 1rem 2rem 2rem 2rem;
+  }
+
+  /* INVITATION */
+  .hero-section {
+    background: url("/assets/graphics/inv-hero-mov.webp") no-repeat top center /
+      cover;
+  }
+
+  .details {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .inv-photo-1 {
+    height: 32vh;
+    background-position: 50% 50%;
+    background-size: 100%;
+  }
+
+  .welcome-party {
+    background-size: cover;
+    gap: 3rem;
+  }
+
+  .bottom {
+    margin-bottom: 12rem;
+  }
+
+  .inv-photo-2 {
+    height: 32vh;
+    background-position: center;
+    background-size: 75%;
+  }
+
+  .faq {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 80vh;
+  }
+
+  .f-left {
+    height: 100%;
+    padding-bottom: 5rem;
+  }
+
+  .names > h1 {
+    font-size: 3.2rem;
+  }
+
+  .date > h3 {
+    font-size: 1.7rem;
+  }
+
+  .f-left,
+  .f-right {
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .ceremony > h3 {
+    margin-top: 0;
+  }
+
+  .ceremony > h3,
+  .reception > h3 {
+    font-size: 2rem;
+  }
+
+  .ceremony > h4,
+  .reception > h4 {
+    font-size: 1.7rem;
+  }
+
+  .ceremony > p,
+  .reception > p {
+    font-size: 1rem;
+  }
+
+  .accommodation,
+  .transportation,
+  .dress-code,
+  .travel-tips {
+    width: 100%;
+  }
+
+  .accommodation,
+  .transportation,
+  .dress-code,
+  .travel-tips {
+    padding: 0 5rem;
+  }
+
+  .inv-rsvp {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 2rem 0 5rem 0;
+  }
+
+  .r-top {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .r-top > img {
+    height: auto;
+    width: 30rem;
+  }
+
+  .r-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    margin-top: 5rem;
   }
 
   /* Travel */
@@ -673,7 +1072,7 @@ footer > p > a {
   }
 
   .activities > h1 {
-    padding: 5rem 0 2rem 0 ;
+    padding: 5rem 0 2rem 0;
   }
 
   .activities-grid {
@@ -722,7 +1121,8 @@ footer > p > a {
 
   /* Registry */
   .registry {
-    background: url('/assets/graphics/bg-texture.webp') no-repeat top center / cover;
+    background: url("/assets/graphics/bg-texture.webp") no-repeat top center /
+      cover;
     padding: 1rem;
   }
 
