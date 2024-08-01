@@ -1002,9 +1002,12 @@ footer > p > a {
 
   .accommodation,
   .transportation,
-  .dress-code,
-  .travel-tips {
+  .dress-code {
     padding: 0 5rem;
+  }
+
+  .travel-tips {
+    padding: 0 5rem 4rem 5rem;
   }
 
   .inv-rsvp {
