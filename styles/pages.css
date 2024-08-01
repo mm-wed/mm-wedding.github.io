@@ -386,6 +386,10 @@ header ul {
   align-items: flex-start;
 }
 
+.f-left > .serif {
+  width: 28%;
+}
+
 .accommodation > .address {
   margin-top: 8px;
 }
@@ -791,6 +795,18 @@ footer > p > a {
 }
 
 /* -----------------Media Query----------------- */
+@media screen and (min-width: 350px) and (max-width: 380px) {
+  .inv-rsvp {
+    margin-top: 170rem;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 420px) {
+  .inv-rsvp {
+    margin-top: 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
   html {
     font-size: 10px;
@@ -1015,7 +1031,8 @@ footer > p > a {
     display: flex;
     flex-direction: column;
     gap: 0;
-    padding: 2rem 0 5rem 0;
+    padding: 2rem 0;
+    margin-top: 5rem;
   }
 
   .r-top {
